@@ -14,6 +14,7 @@ import PackageDescription
 let package = Package(
     name: "SwiftDocCPlugin",
     platforms: [
+        .iOS(.v16),
         .macOS("10.15.4"),
     ],
     products: [
